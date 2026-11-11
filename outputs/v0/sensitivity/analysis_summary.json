@@ -1,0 +1,76 @@
+{
+  "stages": [
+    "encoder_patch",
+    "encoder_0",
+    "encoder_16",
+    "encoder_31",
+    "merger",
+    "llm_0",
+    "llm_14",
+    "llm_27"
+  ],
+  "min_original_box_side": 20.0,
+  "probe_components": 128,
+  "object_views_per_stage": {
+    "encoder_patch": 1948,
+    "encoder_0": 1948,
+    "encoder_16": 1948,
+    "encoder_31": 1948,
+    "merger": 1948,
+    "llm_0": 1948,
+    "llm_14": 1948,
+    "llm_27": 1948
+  },
+  "scene_count_per_stage": {
+    "encoder_patch": 129,
+    "encoder_0": 129,
+    "encoder_16": 129,
+    "encoder_31": 129,
+    "merger": 129,
+    "llm_0": 129,
+    "llm_14": 129,
+    "llm_27": 129
+  },
+  "splits": {
+    "encoder_patch": {
+      "train": 1188,
+      "test": 379,
+      "val": 381
+    },
+    "encoder_0": {
+      "train": 1188,
+      "test": 379,
+      "val": 381
+    },
+    "encoder_16": {
+      "train": 1188,
+      "test": 379,
+      "val": 381
+    },
+    "encoder_31": {
+      "train": 1188,
+      "test": 379,
+      "val": 381
+    },
+    "merger": {
+      "train": 1188,
+      "test": 379,
+      "val": 381
+    },
+    "llm_0": {
+      "train": 1188,
+      "test": 379,
+      "val": 381
+    },
+    "llm_14": {
+      "train": 1188,
+      "test": 379,
+      "val": 381
+    },
+    "llm_27": {
+      "train": 1188,
+      "test": 379,
+      "val": 381
+    }
+  }
+}

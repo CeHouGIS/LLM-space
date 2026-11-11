@@ -1,0 +1,10 @@
+seed: 42
+sample_size: 200
+base_crop_ratio: 0.8
+shift_ratio: 0.1
+zoom_in_ratio: 0.85
+zoom_out_ratio: 1.15
+output_size: [400, 300]
+split_ratios: [0.6, 0.2, 0.2]
+source_manifest: /host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/data/real20k_20261110/images.train.jsonl
+data_root: /host/mnt/nas/urban-visual-gene/streetspatial_v0/data

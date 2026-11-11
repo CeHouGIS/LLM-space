@@ -1,0 +1,37 @@
+{
+  "scene_count": 200,
+  "view_count": 1398,
+  "split_seed": 43,
+  "scene_split_counts": {
+    "train": 120,
+    "val": 40,
+    "test": 40
+  },
+  "category_split_counts": {
+    "train": {
+      "Car": 95,
+      "Tree": 102,
+      "Traffic Sign": 9,
+      "Lamp Post": 2,
+      "Pole": 67
+    },
+    "val": {
+      "Car": 24,
+      "Traffic Sign": 6,
+      "Tree": 37,
+      "Pole": 21
+    },
+    "test": {
+      "Tree": 38,
+      "Car": 31,
+      "Traffic Sign": 4,
+      "Pole": 20
+    }
+  },
+  "review_status": {
+    "visually_reviewed": 10,
+    "machine_proposal_unreviewed": 190
+  },
+  "label_correction": "Unreviewed Lamp Post proposals relabeled Pole",
+  "transformed_images_reused_from": "/host/mnt/nas/urban-visual-gene/streetspatial_v0/data/splits/pilot200/transformed"
+}

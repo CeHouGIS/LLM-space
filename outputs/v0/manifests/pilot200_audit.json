@@ -1,0 +1,91 @@
+{
+  "status": "passed",
+  "views": 1398,
+  "scenes": 200,
+  "image_token_counts": {
+    "154": 1398
+  },
+  "max_embedding_alignment_abs_error": 0.0,
+  "stages": {
+    "encoder_patch": {
+      "count": 1398,
+      "dimensions": [
+        1280
+      ],
+      "dtypes": [
+        "float16"
+      ],
+      "max_abs": 7.5625
+    },
+    "encoder_0": {
+      "count": 1398,
+      "dimensions": [
+        1280
+      ],
+      "dtypes": [
+        "float16"
+      ],
+      "max_abs": 14.25
+    },
+    "encoder_16": {
+      "count": 1398,
+      "dimensions": [
+        1280
+      ],
+      "dtypes": [
+        "float16"
+      ],
+      "max_abs": 51.875
+    },
+    "encoder_31": {
+      "count": 1398,
+      "dimensions": [
+        1280
+      ],
+      "dtypes": [
+        "float16"
+      ],
+      "max_abs": 9784.0
+    },
+    "merger": {
+      "count": 1398,
+      "dimensions": [
+        3584
+      ],
+      "dtypes": [
+        "float16"
+      ],
+      "max_abs": 22.375
+    },
+    "llm_0": {
+      "count": 1398,
+      "dimensions": [
+        3584
+      ],
+      "dtypes": [
+        "float16"
+      ],
+      "max_abs": 26.625
+    },
+    "llm_14": {
+      "count": 1398,
+      "dimensions": [
+        3584
+      ],
+      "dtypes": [
+        "float16"
+      ],
+      "max_abs": 74.5
+    },
+    "llm_27": {
+      "count": 1398,
+      "dimensions": [
+        3584
+      ],
+      "dtypes": [
+        "float16"
+      ],
+      "max_abs": 169.0
+    }
+  }
+}
