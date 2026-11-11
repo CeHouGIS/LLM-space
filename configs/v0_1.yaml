@@ -1,0 +1,10 @@
+source_manifest: /host/mnt/nas/urban-visual-gene/streetspatial_v0/data/splits/pilot200_final/transformations.jsonl
+feature_cache: /host/mnt/nas/urban-visual-gene/streetspatial_v0/outputs/v0/pilot200_features
+model: Qwen2.5-VL-7B-Instruct
+stages: [encoder_patch, encoder_0, encoder_16, encoder_31, merger, llm_14]
+seeds: [17, 42, 73]
+ridge_alphas: [1, 10, 100, 1000]
+real_feature_pca_components: 128
+subspace_dimensions: [2, 4, 8, 16, 32]
+bootstrap_repetitions: 300
+note: V0.1 reads V0 caches without editing them. Machine proposal labels are exploratory.

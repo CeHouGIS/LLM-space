@@ -12,6 +12,12 @@ The main figures are in [outputs/v0/figures](outputs/v0/figures), with the
 20-pixel object-size sensitivity analysis in
 [outputs/v0/sensitivity](outputs/v0/sensitivity).
 
+The V0.1 follow-up adds position-only controls, object trajectories, category
+transfer, and independent subspace evaluation. See the
+[V0.1 report](outputs/v0_1/report.md), [figures](outputs/v0_1/figures), and
+[metrics](outputs/v0_1/metrics). Reproduce it with `bash scripts/run_v0_1.sh`
+on the original host with access to the NAS data, V0 feature cache, and model.
+
 Original Google Street View images, annotated review sheets, transformed images,
 model weights, and FP16 feature caches are not distributed in this repository.
 The commands below document the original host paths; reproducing the run on

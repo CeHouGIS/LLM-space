@@ -1,0 +1,16 @@
+{
+  "n_views": 1398,
+  "n_scenes": 200,
+  "split_scenes": {
+    "val": 40,
+    "train": 120,
+    "test": 40
+  },
+  "annotation_status_views": {
+    "visually_reviewed": 80,
+    "machine_proposal_unreviewed": 1318
+  },
+  "image_paths_readable": true,
+  "feature_cache_complete": true,
+  "note": "Machine proposals are not human ground truth; no additional manual review was performed."
+}
